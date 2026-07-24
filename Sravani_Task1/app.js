@@ -6,7 +6,7 @@ const clearButton = document.getElementById('clear');
 const backspaceButton = document.getElementById('backspace');
 
 let currentInput = '';// so this will be a variable for tracking what we type 
-
+ 
 numberButtons.forEach(button => {
   button.addEventListener('click', () => {
     currentInput += button.getAttribute('data-value');//we append what ever that is present in data-value attribute to the currentInput

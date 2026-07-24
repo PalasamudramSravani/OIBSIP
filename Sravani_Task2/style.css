@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  line-height: 1.6;
+  font-family: Arial, Helvetica, sans-serif;
+  /* padding: 0; */
+}
+h1,
+h2,
+h3 {
+  font-family: "poppins", serif;
+}
+
+.head {
+  background-color: #1a73e8;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.head h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.head p {
+  font-size: 20px;
+}
+.image-section {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.image-section img {
+  width: 250px;
+  border-radius: 10px;
+}
+.bio {
+  padding: 30px;
+  background-color: #ffffff;
+}
+
+.bio p {
+  margin-bottom: 15px;
+  /* line-height: 1.2; */
+}
+.timelines {
+  background-color: #e8f0fe;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.timelines h5 {
+  text-align: center;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  background-color: white;
+  padding: 15px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card h3 {
+  color: #1a73e8;
+}
+
+.quote {
+  background-color: #222;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #1a73e8;
+  color: white;
+}
+@media (max-width: 600px) {
+  .head h1 {
+    font-size: 32px;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
